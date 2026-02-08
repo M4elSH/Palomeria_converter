@@ -1,5 +1,5 @@
-cat <<EOF > README.md
 # 🇩🇴 Palomeria Converter
+
 **Palomeria Converter** es un script de automatización para Linux (probado en Arch Linux) que permite descargar videos (MP4) y audio (MP3) de YouTube con facilidad y estilo.
 
 ---
@@ -13,36 +13,34 @@ cat <<EOF > README.md
 ---
 
 ### 🛠️ Instalación y Requisitos
-
 Necesitas tener **FFmpeg** instalado para procesar los videos:
 
 #### **En Arch Linux:**
-\`\`\`bash
+```bash
 sudo pacman -S ffmpeg python-pip
-\`\`\`
+```
 
 #### **En Ubuntu / Debian:**
-\`\`\`bash
+```bash
 sudo apt update && sudo apt install ffmpeg python3-pip
-\`\`\`
+```
 
 ---
 
 ### 📦 Configuración del Proyecto
 1. Clona el repositorio.
 2. Crea tu entorno virtual e instala dependencias:
-   \`\`\`bash
+   ```bash
    python3 -m venv venv
    source venv/bin/activate
    pip install -r requirements.txt
-   \`\`\`
+   ```
 
 ### 🎮 Uso
 Ejecuta el script principal:
-\`\`\`bash
+```bash
 python3 Palomeria_converter.py
-\`\`\`
+```
 
 ---
 Desarrollado por **M4elSH** 💻🇩🇴
-EOF
